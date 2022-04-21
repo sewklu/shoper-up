@@ -1,0 +1,89 @@
+body {
+    background: #000;
+    margin: 20px;
+}
+
+a {
+    color: #3d4c96;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 6em;
+    color: #fff;
+}
+
+h2 {
+    font-size:  1.5em;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+header {
+    padding: 30px;
+    border-bottom: 1px solid #000;
+}
+
+header, ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.logo a {
+    font-size: 25px;
+    font-weight: 600;
+    color: #3d4c96;
+}
+
+nav {
+    margin-left: 40px;
+}
+
+nav ul a {
+    margin: 0 3px;
+    border: 1px solid #000;;
+    border-radius: 5px;
+    padding: 10px 7px;
+}
+
+nav ul a:hover {
+    background: #3d4c96;
+    color: #fff;
+}
+
+article.news {
+    padding: 30px 10px 10px 10px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 80%;
+}
+
+article.news span {
+    display: block;
+    margin-top: 20px;
+}
+
+#cover {
+    background-image: url("../images/cars.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    border-top: 1px solid #000;
+    padding: 10px;
+}
